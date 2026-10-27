@@ -55,8 +55,8 @@ with st.container(key="kopf"):
 st.markdown(
     """
 Ein Verband hat einen **Investitionstopf**, die Mitglieder stimmen Projekten zu (Zustimmungsstimmen), und jedes Projekt kostet etwas: das Geld reicht nicht für alle.
-Die naheliegende Regel kauft die **beliebtesten** Projekte, bis das Budget aufgebraucht ist. Wenn aber ein Lager die Mehrheit hat, sind die Lieblingsprojekte des anderen Lagers nie dabei, **obwohl dessen Wähler einen Teil des Budgets „mitgebracht“ haben**.
-Die **Methode gleicher Anteile** (Equal Shares) gibt jedem Wähler denselben Anteil am Budget und lässt jedes Projekt von seinen Unterstützern bezahlen; sie schützt **berechtigte Gruppen**: eine Gruppe, die ein Projekt mit ihrem Anteil bezahlen könnte und ihm geschlossen zustimmt, geht nicht leer aus.
+Die naheliegende Regel kauft die **beliebtesten** Projekte, bis das Budget aufgebraucht ist. Wenn aber ein Lager die Mehrheit hat, kommen die Lieblingsprojekte des anderen Lagers oft nicht dran (bei 60 : 40 im Mittel über 100 Instanzen nur 5 % der Ausgaben), **obwohl dessen Wähler einen Teil des Budgets „mitgebracht“ haben**.
+Die **Methode gleicher Anteile** (Equal Shares) gibt jedem Wähler denselben Anteil am Budget und lässt jedes Projekt von seinen Unterstützern bezahlen; sie schützt **berechtigte Gruppen**: eine Gruppe, die ein Projekt mit ihrem Anteil bezahlen könnte und ihm geschlossen zustimmt, ging in allen gemessenen Instanzen nicht leer aus (theoretisch gesichert ist nur EJR bis auf ein Projekt, Peters u. a.).
 Die Demo vergleicht **fünf Regeln** auf denselben Zufallsinstanzen (zwei Lager, Kosten 1 bis 5) und **prüft die Gruppenansprüche exakt** (alle Gruppen, alle Projektmengen), statt sie nur zu behaupten.
 Verwandt: `projektauswahl-demo` (Auswahl mit Voraussetzungen, ohne Wählergruppen), `wahlregeln-demo` (ein Sieger statt eines Budgets).
 
